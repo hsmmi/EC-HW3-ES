@@ -1,0 +1,98 @@
+{
+    "0": {
+        "problem": "ackley",
+        "interval": [-32.768, 32.768],
+        "population_size": 100,
+        "survival_selection": "mu_plus_lambda",
+        "dimension": 2,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    },
+    "1": {
+        "problem": "ackley",
+        "interval": [-32.768, 32.768],
+        "population_size": 100,
+        "survival_selection": "mu_comma_lambda",
+        "dimension": 2,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    },    
+    "2": {
+        "problem": "ackley",
+        "interval": [-32.768, 32.768],
+        "population_size": 100,
+        "survival_selection": "mu_plus_lambda",
+        "dimension": 5,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    },
+    "3": {
+        "problem": "ackley",
+        "interval": [-32.768, 32.768],
+        "population_size": 100,
+        "survival_selection": "mu_comma_lambda",
+        "dimension": 5,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    },
+    "4": {
+        "problem": "schwefel",
+        "interval": [-500, 500],
+        "population_size": 100,
+        "survival_selection": "mu_plus_lambda",
+        "dimension": 3,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    },
+    "5": {
+        "problem": "schwefel",
+        "interval": [-500, 500],
+        "population_size": 100,
+        "survival_selection": "mu_comma_lambda",
+        "dimension": 3,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    },    
+    "6": {
+        "problem": "schwefel",
+        "interval": [-500, 500],
+        "population_size": 100,
+        "survival_selection": "mu_plus_lambda",
+        "dimension": 6,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    },
+    "7": {
+        "problem": "schwefel",
+        "interval": [-500, 500],
+        "population_size": 100,
+        "survival_selection": "mu_comma_lambda",
+        "dimension": 6,
+        "lambda": 700,
+        "recombination": "local_discrete",
+        "max_generation": 50,
+        "k": 5,
+        "mutation": "adaptive"
+    }
+}
